@@ -115,16 +115,16 @@ h1, h2, h3, h4 {
  
 /* Individually coloured cards */
  
-#card1.correct { background: #dfd; }
-#card2.correct { background: #dfd; }
-#card3.correct { background: #dfd; }
-#card4.correct { background: #dfd; }
-#card5.correct { background: #dfd; }
-#card6.correct { background: #dfd; }
-#card7.correct { background: #dfd; }
-#card8.correct { background: #dfd; }
-#card9.correct { background: #dfd; }
-#card10.correct { background: #dfd; }
+#card1.correct { background: black; }
+#card2.correct { background: white; }
+#card3.correct { background: green; }
+#card4.correct { background: red; }
+#card5.correct { background: blue; }
+#card6.correct { background: yellow; }
+#card7.correct { background: brown; }
+#card8.correct { background: light; }
+#card9.correct { background: dark; }
+#card10.correct { background: grey; }
  
  
 /* "You did it!" message */
