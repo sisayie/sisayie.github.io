@@ -75,7 +75,7 @@ h1, h2, h3, h4 {
 #cardSlots div, #cardPile div {
   float: left;
   /*width: 43%;*/
-  width: 75%;
+  width: 80%;
   font-size: 1.5em;
   height: 18%;
   padding: .85em;
