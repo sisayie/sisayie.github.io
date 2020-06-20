@@ -20,7 +20,7 @@ video {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 5px;
   width: 100%;
 }
 
@@ -57,18 +57,62 @@ video {
 html {
   font-family: "Lucida Sans", sans-serif;
 }
+body {
+	width:100%;
+}
+a:link {
+  text-decoration: none;
+}
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #993388;
+  color: white;
+}
 .header {
   background-color: #993388;
   color: #ffffff;
   padding: 5px;
   text-align: center;
+  width:100%;
+  //position: fixed; /* Set the navbar to fixed position */
+  //top: 0; /* Position the navbar at the top of the page */
+  //height:15%;
+  /*h3 {
+  scroll-margin-top: 5rem; /* whatever is a nice number that gets you past the header */
+  }*/
 }
 
 .menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  cursor: pointer;
+  //margin-top: 28%; /* Add a top margin to avoid content overlay */
+  //position:sticky;
 }
 
 .menu li {
@@ -77,76 +121,150 @@ html {
   background-color: #33b5e5;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
 }
 
 .menu li:hover {
   background-color: #0099cc;
+  cursor: pointer;
 }
 
 .aside {
   background-color: #33b5e5;
-  padding: 15px;
+  padding: 5px;
   color: #ffffff;
-  text-align: center;
-  font-size: 14px;
+  text-align: left;
+  font-size: 13px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  //margin-top: 25%; /* Add a top margin to avoid content overlay */
 }
-
 .footer {
   background-color: #0099cc;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
-  padding: 2px;
+  //padding: 2px;
+  //margin-bottom:0px;
+  //position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Damu Management Consult</h1>
+  <h1>Damu Management Consult PLC</h1>
 </div>
 
 <div class="row">
   <div class="col-3 col-s-3 menu">
     <ul>
-	  <li>Who we are</li>
-      <li>What we do</li>
-      <li>Projects and Services</li>
-      <li>Work with us</li-->
+	  <li><a href="#who_we_are"> Who we are</a></li>
+      <li><a href="#what_we_do"> What we do</a></li>
+      <li><a href="#major_clients"> Projects and Services</a></li>
+      <li><a href="#who_we_are"> Work with us</a></li>
     </ul>
+	<img src = "media/images/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" style="width:100%; height:10%"></img>
   </div>
 
-  <div class="col-6 col-s-9">
-    <h1>Main Content Here</h1>
-    <p>Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. Main Content Here. </p>
-	<h3> Video, if any, here</h3>
+  <div class="col-6 col-s-9 main" id = "who_we_are">
+    <!--h1>Main Content Here</h1-->
+    <p>Damu Management Consult PLC (DAMU) is a consultancy service providing firm established in 2017 to join the consultancy world. Damu is working on establishing concrete ethical values and code of conduct in executing its business activities and interacting with its stakeholders including its employees, management, clients, government organizations and many others. We built different policy manuals for governing our operations to move towards success. </p>
+	<!--h3> Video, if any, here</h3>
     <video autoplay muted loop id="myVideo" controls>
       <source src="media/videos/WIN_20200529_11_29_44_Pro.mp4" type="video/mp4">
       <source src="media/videos/WIN_20200529_11_29_44_Pro.ogg" type="video/ogg">
       Your browser does not support HTML5 video.
-    </video>
+    </video-->
+	<h3 id = "what_we_do"> What we do?</h3>
+	<p>
+	Damu Management Consult PLC works on providing consultancy services on different Areas. We conduct studies such as feasibility studies, baseline studies, capacity needs assessment, pre-grant assessments, Value Chain Analysis, and other forms of researches. We also prepare Business Plan, Training and other organizational Manuals. In addition, we providing trainings, develope organizational structure, salary scale and benefits scheme, project evaluations (Mid-term and Final), develope strategic plans.
+	</p>
+	<h3 id="major_clients"> Our Major Clients</h3>
+	<p>
+	Since its establishment, Damu Management Consult PLC has successfully worked on various projects with the numerous clients. Below is the list of major clients together with short description of the accomplished projects with the client:
+	</p>
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+	<td>
+	   <table cellspacing="0" cellpadding="1" border="0"><!-- width="300" -->
+         <tr><!-- style="color:white;background-color:grey"-->
+            <th>Client</th>
+            <th>Project</th>
+         </tr>
+       </table>
+	</td></tr><!--th>Client</th><th>Project</th></tr-->
+	<tr>
+	  <td>
+       <div style="height:250px; overflow:auto;">
+	     <table cellspacing="0" cellpadding="1" border="0">
+			<tr><td>Synergy PLC</td><td>Preparation of HR Policy and Procedures Manual, Organizational Structure, Job analysis and grading, Salary and Benefit packages</td></tr>
+			<tr><td>EES Architects and Engineering PLC</td><td>Preliminary feasibility study on establishment of Mesob Tower</td></tr>
+			<tr><td>Kersa Macaroni Factory</td><td>Preparation of HR, Financial and Procurement Policy and Procedures Manuals</td></tr>
+			<tr><td>Nile Developments and Services PLC</td><td>Training on Human Resources Management Practices and Labor Laws</td></tr>
+			<tr><td>Abbahawa Trading PLC</td><td>Conducting Feasibility Study Establishment of PP Bag, Tarpaulin and Hessian Cloth Factory (Commissioned by Yehuary Trading PLC)</td></tr>
+			<tr><td>Ras Gayint Farmers’ Cooperative Union</td><td>Conducted feasibility study on establishment of Animal feed processing and fattening projects by the union (In association with Yonat Management Consult)</td></tr>
+			<tr><td>Chercher-Oda Bultum Farmers’ Cooperative Union</td><td>Conducted feasibility study on Animal Feed Processing Plant in West Hararge Zone by the union (As an associate to Yonat Management Consult)</td></tr>
+			<tr><td>Elto-Sidama Farmers’ Cooperative Union</td><td>Conducting Appraisal and Feasibility Study on Acquisition of Guts Agro-Industry PLC-Hawasa Branch (Commissioned by Yehuary Trading PLC)</td></tr>
+			<tr><td>Lemlem Wolkait Farmers’ Cooperative Union/LWFCU)</td><td>Conducting Feasibility Study Establishment of PP Bag, Tarpaulin and Hessian  Cloth Factory (Commissioned by Yehuary Trading PLC)</td></tr>
+			<tr><td>Wolkitie Real Estate</td><td>Feasibility Study on Establishing of Real Estate Business Venture in Wolkitie Town</td></tr>
+			<tr><td>TF House Construction and Rent Sc</td><td>Conducting Feasibility Study Establishment of 4B+G+19 Floors Mixed Use Building, Addis Ababa</td></tr>			
+			<tr><td>Bamboo Paradise Hotel, Asosa</td><td>Feasibility Study on loan buyout decision, Asosa Town</td></tr>
+		  </table>
+		 </div>
+		</td>
+      </tr>
+     </table>
   </div>
 
   <div class="col-3 col-s-12">
     <div class="aside">
-      <h2>What?</h2>
-      <p>What are our services?</p>
-      <h2>Where?</h2>
-      <p>Where are we located?</p>
-      <h2>How?</h2>
-      <p>How can you work with us?</p>
+      <h2>What are our services?</h2>
+	  	<p>
+	Here are areas of our services:
+	<ul>
+		<li> Conducting Feasibility Studies and Preparation of Business Plan </li>
+		<li> Preparation of Training and other organizational Manuals</li>
+		<li> Providing Trainings</li>
+		<li> Developing Organizational Structure, Salary Scale and Benefits Scheme</li>
+		<li> Baseline Studies</li>
+		<li> Project Evaluations (Mid-term and Final)</li>
+		<li> Developing Strategic Plans</li>
+		<li> Value Chain Analysis</li>
+		<li> Conducting Capacity Needs Assessment</li>
+		<li> Conducting Pre-Grant Assessments</li>
+		<li> Conducting Researches</li>
+		<li> Providing Consultancy Services on different Areas and many more.</li>
+	</ul>
+	</p>
+	  
+      <h2>Where are we located?</h2>
+	  <p>We are located at the heart of the capital city of Ethiopia, Addis Ababa, just on the road from Wabe Shebele Hotel to Kera about 200 meters from the rail way which makes us readily reachable from all directions.</p>
+	  <h2>Organizational Manuals </h2>
+	  <p>Damu has devised the relevant organizational policy and procedures manuals including Human Resources Management Manual, Financial Management manual and Code of ethics and Business Conduct Manuals.
+	<ul>
+		<li> Human Resources Management Manual</li>
+		<li> Financial Management  manual </li>
+		<li> Code of Ethics and Business Conduct Manuals</li>
+	</ul></p>
+	<h2>Work with us</h2>
+	If you need our services, use <a href="#contact_details">our contact details</a> at the bottom to contact us. We will be pleased to provide you our unparalleled consultancy services.
     </div>
 	<div>
 	<!--h3> Image, if any, here </h3-->
-	<img src = "media/images/guess.jpg" style="width:100%; height:10%"></img>
+	<!--img src = "media/images/guess.jpg" style="width:100%; height:10%"></img-->
 	</div>
   </div>
 </div>
 
-<div class="footer">
-  <p>Address: HouseNo, Street, Addis Ababa, Ethiopia </br>
-	Telephone: +251 114 340238942394-24092-3 </br>
+<div class="footer" id = "contact_details">
+  <p>	
+	Kirkos Sub-city, Woreda 06, House number 202/511 </br>
+	Aymen Commercial, 5th Floor, Office. No. 511 </br>
+	Phone:  +251 911 870977/ 993818168/118685601/ 0935401307 </br>
+	Email: damacoplc@gmail.com </br>
 	Website: www.damu-consult.com
   </p>
 </div>
