@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Sisay's Page'"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Sisay Adugna Chala"
 description              : &description "personal description"
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Sisay Adugna Chala"
   pronouns         : # example: "she/her"  
-  bio              : "        Hi, I'm Sisay Adugna Chala. I work for Fraunhofer FIT as a researcher in Software Engineering in the User-Centered Ubiquitous Computing team. I obtained my PhD in Computer Science from University of Siegen, where I was a Marie Curie ITN Fellow working on data-intensive personalized vacancy recommendation, and assisting in teaching software engineering for mechatronics international program. "
+  bio              : "PhD in Computer Science"
   #location         : "Earth"
-  employer         : "Fraunhofer FIt and RWTH Aachen"
+  employer         : "Fraunhofer FIT and RWTH Aachen"
   #uri              : # URL
   #email            : "none@example.org" 
 
