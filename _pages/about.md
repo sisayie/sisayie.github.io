@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sisay Adugna Chala's personal website"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -17,10 +17,10 @@ I enjoy my stay at FIT due the conducive and vibrant working environment that en
 
 My research interests include machine translation, data mining and machine learning, information retrieval, and application of ICT in various problem domains. My professional highlights:
 
+  - Over 10 years of experience in university teaching and R&D
+  - Over 15 years of experience in software development
+  - More than 7 year of experience in project management and technical leadership 
+  #(ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
   - Development of Energy Prediction using Deep learning
   - Development of application programming interface for energy simulation
   - Development Bi-directional job matching using unsupervised feature learning
-  - Over 10 years of experience in university teaching and R&D
-  - Over 15 years of experience in software development
-  - More than 7 year of experience in project management
-  - More than 5 years of experience at technical leadership (ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
