@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD in Computer Science"
   #location         : "Earth"
-  employer         : "Fraunhofer FIT and RWTH Aachen"
+  #employer         : "Fraunhofer FIT and RWTH Aachen"
   #uri              : # URL
   #email            : "none@example.org" 
 
@@ -59,7 +59,7 @@ author:
   instagram        : # Username
   lastfm           : # Username
   mastodon         : # URL
-  medium           : "https://sisayie.medium.com/" # URL
+  #medium           : "https://sisayie.medium.com/" # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
