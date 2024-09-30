@@ -10,7 +10,3 @@ citation: 'Farshid Tavakolizadeh, <b>Sisay A. Chala</b>, Hanbing Zhang. (2019). 
 ---
 
 <a href='https://dl.acm.org/doi/10.1145/3365871.3365912'>Download paper here</a>
-
-An Interactive Interface for Bulk Software Deployment in IoT
-
-Recommended citation: Farshid Tavakolizadeh, <b>Sisay A. Chala</b>, Hanbing Zhang. (2019). An Interactive Interface for Bulk Software Deployment in IoT. ACM IOT 2019: 38:1-38:4
