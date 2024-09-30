@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Sisay Adugna Chala"
 description              : &description "personal description"
