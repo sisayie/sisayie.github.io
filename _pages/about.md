@@ -13,14 +13,14 @@ Earlier, I worked for Haramaya University (Ethiopia) as an ICT Director and syst
 
 At Fraunhofer FIT, I am involved in projects that work in the area of smart data analytics. Notable projects I am actively working on are Storage4Grid where we study energy consumption prediction, and GOEASY in which we study optimization of location based services.
 
-I enjoy my stay at FIT due the conducive and vibrant working environment that encourages healthy work-life balance and sustainable productivity while tackling real-world challenges by applying multidisciplinary approaches.
+[//]: # I enjoy my stay at FIT due the conducive and vibrant working environment that encourages healthy work-life balance and sustainable productivity while tackling real-world challenges by applying multidisciplinary approaches.
 
 My research interests include machine translation, data mining and machine learning, information retrieval, and application of ICT in various problem domains. My professional highlights:
 
   - Over 10 years of experience in university teaching and R&D
   - Over 15 years of experience in software development
   - More than 7 year of experience in project management and technical leadership 
-  #(ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
+  [//]: # (ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
   - Development of Energy Prediction using Deep learning
   - Development of application programming interface for energy simulation
   - Development Bi-directional job matching using unsupervised feature learning
