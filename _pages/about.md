@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: "___"
 author_profile: true
 redirect_from: 
   - /about/
@@ -20,7 +20,9 @@ My research interests include machine translation, data mining and machine learn
   - Over 10 years of experience in university teaching and R&D
   - Over 15 years of experience in software development
   - More than 7 year of experience in project management and technical leadership 
-  [//]: # (ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
   - Development of Energy Prediction using Deep learning
   - Development of application programming interface for energy simulation
   - Development Bi-directional job matching using unsupervised feature learning
+
+  [//]: # Leadership (ICT director at Haramaya University and Smart Data Team Leader at Fraunhofer FIT)
+  
