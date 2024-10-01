@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Compure Science, University of Siegen, 2018
+* M.Sc. in Information Science, Addis Ababa University, 2009
+* B.Sc. in Information Systems, Addis Ababa University, 2005
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2005-2009: Graduate Assistant
+  * Haramaya University
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2009-2014: Lecturer
+  * Haramaya University
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2014-2017: Research Asstant
+  * University of Siegen
+* 2017-todate: Researcher
+  * Fraunhofer Institute of Applied Information Technology (FIT)
+* 2023-todate: Researcher
+  * RWTH Aachen
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Full Stack Development of Machine Learning Applications
+* Programming
+  * Python
+  * Java
+  * C++
+* Android Development
 
 Publications
 ======
@@ -59,6 +57,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Academic Services and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer for various journals and conferences
