@@ -32,6 +32,7 @@ Work experience
   
 Skills
 ======
+* Agile Project Managmement
 * Full Stack Development of Machine Learning Applications
 * Programming
   * Python
@@ -60,3 +61,5 @@ Teaching
 Academic Services and leadership
 ======
 * Reviewer for various journals and conferences
+* Deputy group leader of Intelligent Data Analysis at the Department of Data Science and AI, Fraunhofer FIT
+* Project Management
