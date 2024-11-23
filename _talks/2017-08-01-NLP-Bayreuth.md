@@ -8,6 +8,6 @@ date: 2017-08-01
 location: "Bayreuth, DE"
 ---
 
-[More information here](files/Bayreuth_ML_Systems.pdf)
+[More information here](https://sisayie.github.io/files/Bayreuth_ML_Systems.pdf)
 
 The talk was about development of multilingual system through machine translation
