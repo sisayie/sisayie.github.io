@@ -60,7 +60,7 @@ print(f"New issue created: {issue.title}")
 ```
 
 How (and from where) do you get project id? You can get project id by clicking the 3 dots after Fork on Gitlab web interface as shown in the screenshot below. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
-<img src="files/how_to_get_project_id.png" alt="Get Project ID" width="600"/>
+<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600"/>
 ![Get Project ID] (files/how_to_get_project_id.png)
 You can extend the above code by incorporating the following: 
 - Error Handling: Consider adding error handling mechanisms to handle exceptions like authentication failures, API rate limits, or network errors.
