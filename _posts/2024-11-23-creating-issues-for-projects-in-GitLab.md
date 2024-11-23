@@ -13,12 +13,12 @@ Creating issues  en mass in GitLab (using the web interface) is sometimes tidiou
 Requirements
 ======
 
-1) You need to install python-gitlab library (https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues) in order to perform more complex logic during issue creation
+1) You need to install [python-gitlab library] (https://python-gitlab.readthedocs.io/en/stable/) in order to perform more complex logic during issue creation
 
 2) You need to create a project and get its id. 
 
 3) You need to have personal access token.
-! pip install python-gitlab
+```pip install python-gitlab```
 
 Steps
 ======
@@ -37,7 +37,7 @@ The new issue uses dictionary and defines the title, description, and labels for
 
 Code
 ======
-
+```
 # import required library
 import gitlab
 
@@ -57,11 +57,14 @@ new_issue = {
 issue = project.issues.create(new_issue)
 
 print(f"New issue created: {issue.title}")
+```
 
 How (and from where) do you get project id? You can get project id by clicking the 3 dots after Fork on Gitlab web interface as shown in the screenshot below. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
-<img src="how_to_get_project_id.png" alt="drawing" width="600"/>
+<img src="files/how_to_get_project_id.png" alt="Get Project ID" width="600"/>
 
 You can extend the above code by incorporating the following: 
 - Error Handling: Consider adding error handling mechanisms to handle exceptions like authentication failures, API rate limits, or network errors.
 - Asynchronous Operations: For large-scale operations, you might want to explore asynchronous programming techniques to improve performance.
 - Advanced Features: The gitlab library offers many more features, such as assigning issues to users, setting due dates, and closing issues. Refer to the library's documentation for detailed usage.
+
+Read more about the [API here] (https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues)
