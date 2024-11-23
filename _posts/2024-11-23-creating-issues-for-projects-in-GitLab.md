@@ -8,12 +8,12 @@ tags:
   - Automation
 ---
 
-Creating issues  en mass in GitLab (using the web interface) is sometimes tidious or may require unnecessary context switching. This lab is to show how you can create bulk of issues using python.
+Creating issues  en mass in GitLab (using the web interface) is sometimes tidious or may require unnecessary context switching. This post is to show how you can create bulk of issues using python. The code below is for a single issue but you can easily create list of issues and iterate over them to create multiple issues.
 
 Requirements
 ======
 
-1) You need to install [python-gitlab library] (https://python-gitlab.readthedocs.io/en/stable/) in order to perform more complex logic during issue creation
+1) You need to install <a href='https://python-gitlab.readthedocs.io/en/stable/'>python-gitlab library </a> in order to perform more complex logic during issue creation
 
 2) You need to create a project and get its id. 
 
@@ -60,11 +60,11 @@ print(f"New issue created: {issue.title}")
 ```
 
 How (and from where) do you get project id? You can get project id by clicking the 3 dots after Fork on Gitlab web interface as shown in the screenshot below. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
-<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600"/>
-![Get Project ID] (files/how_to_get_project_id.png)
+<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600" border="5"/>
+
 You can extend the above code by incorporating the following: 
 - Error Handling: Consider adding error handling mechanisms to handle exceptions like authentication failures, API rate limits, or network errors.
 - Asynchronous Operations: For large-scale operations, you might want to explore asynchronous programming techniques to improve performance.
 - Advanced Features: The gitlab library offers many more features, such as assigning issues to users, setting due dates, and closing issues. Refer to the library's documentation for detailed usage.
 
-Read more about the [API here] (https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues)
+Read more about the <a href = 'https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues'>API here</a>
