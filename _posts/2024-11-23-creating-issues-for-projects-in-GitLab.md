@@ -22,16 +22,17 @@ Requirements
 
 Steps
 ======
+It takes three steps to automate the creation of issues in GitLab projects: Authentication, Project selection and issue creation.
 
-1) Authentication
+i) Authentication
 ------
 Provide your personal access token and the Gitlab instance url. You can generate a token with the necessary scopes (e.g., API) from your GitLab profile settings.
 
-2) Project Selection
+ii) Project Selection
 ------
 Provide the ID of the project where you want to create the issue. You can find the project ID in the project's URL (see screenshot below).
 
-3) Creating the Issue
+iii) Creating the Issue
 ------
 The new issue uses dictionary and defines the title, description, and labels for the new issue. You can customize these fields as needed. Once the dictionary is populated with the necessary information, the project.issues.create(new_issue) method creates the issue and returns an Issue object. The full code for creating a new issue is shown below.
 
@@ -60,7 +61,7 @@ print(f"New issue created: {issue.title}")
 ```
 
 How (and from where) do you get project id? You can get project id by clicking the 3 dots after Fork on Gitlab web interface as shown in the screenshot below. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
-<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600" border="5"/>
+<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600" style="border: 2px solid grey;"/>
 
 You can extend the above code by incorporating the following: 
 - Error Handling: Consider adding error handling mechanisms to handle exceptions like authentication failures, API rate limits, or network errors.
