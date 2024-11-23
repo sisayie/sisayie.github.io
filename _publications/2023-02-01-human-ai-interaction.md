@@ -9,4 +9,4 @@ citation: 'Chala, S. A., &amp; Grass, A. (2023). Human-AI Interaction for Semant
 ---
 AI Model Building with Human-in-the-loop
 
-Recommended citation: Chala, S. A., & Grass, A. (2023). Human-AI Interaction for Semantic Knowledge Enrichment of AI Model Output. In Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI (pp. 43-54). Cham: Springer Nature Switzerland.
+Recommended citation: <b>Chala, S. A.</b>, & Grass, A. (2023). Human-AI Interaction for Semantic Knowledge Enrichment of AI Model Output. In Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI (pp. 43-54). Cham: Springer Nature Switzerland.
