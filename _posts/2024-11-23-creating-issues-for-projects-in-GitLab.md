@@ -42,13 +42,13 @@ Code
 # import required library
 import gitlab
 
-# Authenticate to GitLab
+# GitLab Authenticate
 gl = gitlab.Gitlab('https://your_gitlab_instance_url', private_token='your_private_token')
 
-# Select the project
+# Project Selection
 project = gl.projects.get(project_id='your_project_id')
 
-# Create a new issue
+# New Issue Creation
 new_issue = {
     'title': 'New Issue Title',
     'description': 'This is a new issue description.',
@@ -60,12 +60,12 @@ issue = project.issues.create(new_issue)
 print(f"New issue created: {issue.title}")
 ```
 
-How (and from where) do you get project id? You can get project id by clicking the 3 dots after Fork on Gitlab web interface as shown in the screenshot below. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
+How (and from where) do you get project id? You can get project id by clicking the 3 dots next to Fork on Gitlab web interface as shown in the screenshot in Figure 1. As soon as you click the three dots, you will see the popup that reads "Copy project ID: <id>". Clicking on the popup will copy the project id to clipboard. You can then paste it in ```project = gl.projects.get(id='your_project_id')``` to replace the placeholder ```your_project_id```.
 
-<p style="align:center">
-<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="600" style="border: 2px solid grey; vertical-align:middle;margin:20px 0px"/>
-  <br>
-    <em>Screenshot showing how to get project id</em>
+<p>
+<img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="400" style="border: 2px dashed grey; vertical-align:middle;margin:20px"/>
+</br>
+    <em>Figure 1: Screenshot showing how to get project id</em>
 </p>
 
 You can extend the above code by incorporating the following: 
@@ -73,4 +73,7 @@ You can extend the above code by incorporating the following:
 - Asynchronous Operations: For large-scale operations, you might want to explore asynchronous programming techniques to improve performance.
 - Advanced Features: The gitlab library offers many more features, such as assigning issues to users, setting due dates, and closing issues. Refer to the library's documentation for detailed usage.
 
-Read more about the <a href = 'https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues'>API here</a>
+Read more about the [API here](https://python-gitlab.readthedocs.io/en/stable/gl_objects/issues.html#project-issues)
+
+----
+If you have questions or comments, you can reach me via [LinkedIn](www.linkedin.com/in/sisayie).
