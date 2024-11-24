@@ -64,7 +64,7 @@ How (and from where) do you get project id? You can get project id by clicking t
 
 <p>
 <img src="https://sisayie.github.io/files/how_to_get_project_id.png" alt="Get Project ID" width="400" style="border: 2px dashed grey; vertical-align:middle;margin:20px"/>
-</br>
+<br />
     <em>Figure 1: Screenshot showing how to get project id</em>
 </p>
 
