@@ -1,7 +1,7 @@
 ---
 title: "An Interactive Interface for Bulk Software Deployment in IoT"
 collection: publications
-category: Conference
+category: conferences
 permalink: /publication/2019-10-01-paper-iot-number-1
 excerpt: 'An Interactive Interface for Bulk Software Deployment in IoT'
 date: 2019-10-01

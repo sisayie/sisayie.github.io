@@ -1,7 +1,7 @@
 ---
 title: "Incremental Deep-Learning for Continuous Load Prediction in Energy Management Systems"
 collection: publications
-category: Conference
+category: conferences
 permalink: /publication/2019-05-01-energy-load-prediction
 excerpt: 'Incremental Deep-Learning for Continuous Load Prediction in Energy Management Systems'
 date: 2019-05-01
