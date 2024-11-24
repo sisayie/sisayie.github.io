@@ -1,6 +1,7 @@
 ---
 title: "Towards Implementing Context-aware Dynamic Text Field for Web-based Data Collection"
 collection: publications
+category: conferences
 permalink: /publication/2016-09-30-data-collection-job-matching
 excerpt: 'Data collection for job matching'
 date: 2016-09-30

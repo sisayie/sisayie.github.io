@@ -1,6 +1,7 @@
 ---
 title: "Automated Use Case Diagram Generation from Textual User Requirement Documents"
 collection: publications
+category: conferences
 permalink: /publication/2017-04-30-use-case-using-nlp
 excerpt: 'NLP for Software Engineering'
 date: 2017-04-30

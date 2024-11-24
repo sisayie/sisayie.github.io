@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Extraction from Online Vacancies for Effective Job Matching"
 collection: publications
+category: conferences
 permalink: /publication/2017-04-30-vacancy-analysis
 excerpt: 'Vacancy Analysis'
 date: 2017-04-30

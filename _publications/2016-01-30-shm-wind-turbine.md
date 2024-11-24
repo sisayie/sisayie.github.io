@@ -1,6 +1,7 @@
 ---
 title: "A Data Warehousing System for Knowledge-Based Structural Health Monitoring of Wind Power Plant"
 collection: publications
+category: conferences
 permalink: /publication/2016-01-30-shm-wind-turbine
 excerpt: 'SHM for Wind Turbine'
 date: 2016-01-30

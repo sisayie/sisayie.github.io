@@ -1,6 +1,7 @@
 ---
 title: "Job seeker to vacancy matching using social network analysis"
 collection: publications
+category: conferences
 permalink: /publication/2017-05-30-social-network-job-matching
 excerpt: 'Social network analysis for job matching'
 date: 2017-05-30

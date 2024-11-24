@@ -1,6 +1,7 @@
 ---
 title: "Semantic matching of job seeker to vacancy: a bidirectional approach"
 collection: publications
+category: manuscripts
 permalink: /publication/2018-01-01-job-matching-journal-1
 excerpt: 'Bi-directional Job Matching'
 date: 2018-01-01
