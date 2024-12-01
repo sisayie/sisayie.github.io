@@ -25,15 +25,9 @@ user_name@domain.com
                 <project_names>
             3_Completed
 ```
+Remember, if you want to create a subfolder under an existing subfolder of the Inbox in Outlook, you need to first access the subfolder and then create a new folder under it.
 
-To create a subfolder in the "Inbox" folder of Outlook using Python, you can utilize the `pywin32` library, which allows Python to interact with the Outlook application through COM (Component Object Model) automation. So, the first step is to install the pywin32 library using `pip install pywin32`.
-
-- The code will initialize Outlook Application with `win32com.client.Dispatch("Outlook.Application")`, allowing access to its functionality. 
-- Namespace (MAPI): We access the MAPI interface, which gives us the ability to interact with Outlook data such as emails, folders, etc.
-- Get Inbox Folder: The `GetDefaultFolder(6)` method retrieves the Inbox folder (6 is the default constant for the Inbox).
-- Create Subfolder: The `Folders.Add(folder_name)` method adds a new folder with the specified name under the Inbox.
-
-If you want to create a subfolder under an existing subfolder of the Inbox in Outlook, you need to first access the subfolder and then create a new folder under it.
+To create a subfolder in the "Inbox" folder of Outlook using Python, you can utilize the `pywin32` library, which allows Python to interact with the Outlook application through COM (Component Object Model) automation. So, the first step is to install the pywin32 library using `pip install pywin32`. The code below shows the implementation of creating a subfolder under a given parent folder.
 
 ```
 import win32com.client
@@ -73,7 +67,12 @@ subfolder_name = "NewSubFolder"  # Name of the new subfolder to be created
 create_subfolder_under_subfolder(parent_folder_name, subfolder_name)
 ```
 
-Now, you can only focus on maintaining your file containing the list of proposals/projects you work on, e.g., excel file, json file or a mere text file. Create cron job that runs on regular basis to check the content of the file and compare it with the directory structure of your mailbox, bookmark and filesystem and update if needed, relieving you from doing the same thing again and again.
+- The function will initialize Outlook Application with `win32com.client.Dispatch("Outlook.Application")`, allowing access to its functionality. 
+- Namespace (MAPI): We access the MAPI interface, which gives us the ability to interact with Outlook data such as emails, folders, etc.
+- Get Inbox Folder: The `GetDefaultFolder(6)` method retrieves the Inbox folder (6 is the default constant for the Inbox).
+- Create Subfolder: The `Folders.Add(folder_name)` method adds a new folder with the specified name under the Inbox.
+
+Now, you can only focus on maintaining your file containing the list of proposals/projects you work on, e.g., excel file, json file or a mere text file. I suggest you create cron job that runs on regular basis to check the content of the file you maintain and compare it with the directory structure of your mailbox, bookmark and filesystem and update if needed, relieving you from doing the same thing again and again.
 
 **Assumptions**:
 - Outlook is installed and running on your system.
