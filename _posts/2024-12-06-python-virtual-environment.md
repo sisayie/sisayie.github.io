@@ -25,7 +25,8 @@ A virtual environment is a self-contained directory tree that contains the Pytho
 **Creating a Virtual Environment -- Step by Step**
 
 **Step 1: Install Python**
-First, make sure Python is installed on your system. You can download Python from the [official website] (www.python.org). To check if Python is installed and verify its version, run:
+
+First, make sure Python is installed on your system. You can download Python from the [official website](www.python.org). To check if Python is installed and verify its version, run:
 
 ```
 python --version
@@ -37,10 +38,13 @@ or for Python 3:
 If Python is not installed, you can follow the installation instructions for your operating system from the official Python website.
 
 **A) Virtual Environment Using `venv` (Built-in Python Module)**
+
 **Step 2: Create a Virtual Environment Using venv**
+
 Python 3.3+ includes a built-in module called `venv` that can be used to create a virtual environment. To create virtual environment using venv, you need to navigate to the directory, create the virtual environment and activate it.
 
-1. Navigate to Your Project Directory
+- Navigate to Your Project Directory
+
 First, navigate to the folder where you want to store your project, or create a new folder if needed.
 
 ```
@@ -48,7 +52,8 @@ mkdir my_project
 cd my_project
 ```
 
-2. Create the Virtual Environment
+- Create the Virtual Environment
+
 Use the following command to create a new virtual environment. You can name the environment whatever you want (let us name it .venv here). I prefer .venv thank .env because I often use .env for environmet variables.
 
 ```
@@ -56,7 +61,8 @@ python3 -m venv .venv
 ```
 This will create a directory named `.venv` in your project folder. The `.venv` directory contains a copy of the Python interpreter, along with the standard Python libraries. 
 
-3. Activate the Virtual Environment
+- Activate the Virtual Environment
+
 To activate the virtual environment, you need to run the appropriate command based on your operating system.
 
 | OS    | Code to activate virtual environment |
@@ -72,9 +78,11 @@ After activating the virtual environment, your terminal prompt should change, in
 ```
 
 **Step 3: Installing Packages in the Virtual Environment**
+
 Once the virtual environment is active, you can install Python packages using pip, and they will only be available within that environment. For example, to install the requests library, you use `pip install requests` and you can now use requests within your project, but it won't interfere with any other projects you might be working on.
 
 **Step 4: Deactivate the Virtual Environment**
+
 When you're done working in your virtual environment, you can deactivate it by running the `deactivate` command as follows:
 
 ```
@@ -83,6 +91,7 @@ When you're done working in your virtual environment, you can deactivate it by r
 Your terminal prompt will return to its original state, and you will be back to using the global Python environment.
 
 **Step 5: Requirements File (Optional but Recommended)**
+
 To ensure that other developers (or you, on another machine) can easily recreate the virtual environment with the same dependencies, you can create a `requirements.txt` file. This file lists all the packages currently installed in your environment. This ensures reproduceability and portability of your application. You can generate a requirements.txt file automatically using a handy tool called `freeze` as follows:
 
 ```
@@ -97,6 +106,7 @@ pip install -r requirements.txt
 ```
 
 **Step 6: Delete the Virtual Environment (Optional)**
+
 If you no longer need the virtual environment, you can delete the entire `.venv` directory. Simply remove it like any other directory:
 
 | OS    | Code to activate virtual environment |
@@ -108,9 +118,11 @@ If you no longer need the virtual environment, you can delete the entire `.venv`
 This will completely remove the virtual environment and all its contents.
 
 **B) Virtual Environment Using `virtualenv` (Third-Party Tool)**
+
 While `venv` is built into Python 3, you may want to use virtualenv, a popular third-party tool that provides some additional features, like compatibility with Python 2.
 
 **Step 1: Install `virtualenv`**
+
 If you don't already have `virtualenv` installed, you can install it globally using pip:
 
 ```
@@ -118,6 +130,7 @@ pip install virtualenv
 ```
 
 **Step 2: Create a Virtual Environment with virtualenv**
+
 To create a new virtual environment, run the following command:
 
 ```
@@ -126,15 +139,20 @@ virtualenv .venv
 
 This will create a new virtual environment in the `.venv` directory.
 
-Step 3: Activate and Deactivate the Environment
+**Step 3: Activate and Deactivate the Environment**
+
 The activation and deactivation steps are the same as with `venv`. After activation, you can install packages using pip just like before.
 
-Conclusion
+**Conclusion**
+
 Creating and managing virtual environments is an essential practice for any Python developer. By using `venv` or `virtualenv`, you ensure that your projects remain isolated and that dependencies don't conflict with each other or with the base system. This isolation simplifies the development process, allows for easier dependency management, and enhances reproducibility, making it easier to share your projects with others.
 
 Remember to use a `requirements.txt` file to document your project’s dependencies and make it easy to recreate the environment on another machine.
 
 If you’re working on multiple projects, adopting the practice of using virtual environments will help you maintain cleaner, more manageable codebases.
 
-===
+Remember to also add .venv into your .gitignore file to exclude the syncronization the virtual environment to your git repository (avoid unnecessary bandwidth usage).
+
+---
+
 Now that you have read the article till the end, did you find this blog post useful? Drop me your comment as a message on [LinkedIn](www.linkedin.com/in/sisayie)
