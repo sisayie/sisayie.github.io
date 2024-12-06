@@ -1,6 +1,6 @@
 ---
 title: 'Creating a Virtual Environment in Python'
-date: 2024-12-07
+date: 2024-12-06
 permalink: /posts/2024/12/creating-virtual-environment-python/
 tags:
   - Python
