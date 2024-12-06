@@ -7,7 +7,7 @@ tags:
   - Outlook
   - folder management
 ---
-Folder management can be daunting. I have always been creating folders under subfolder in Inbox folder in outlook. As shown in the example structure below, every time I start working on a project or proposal, I create a folder in initation. As the developement process continues and its status changes, I move the folder to a corresponding folder. For example, if the proposal is in its initial discussion phase, it will have a folder under `Initiation`; if the proposal development continues, the folder is moved to `Preparation` and if it is submitted, the folder is moved to `Submitted and follow up`; if it is rejected, the folder is moved to `Rejected`; if it is accepted, it does not belong to proposal category any more and the folder is moved to `Running` projects.
+Folder management can be daunting, especially when you need to keep folders in multiple systems in sync. I have always been creating folders under subfolder in Inbox folder in outlook. As shown in the example structure below, every time I start working on a project or proposal, I create a folder in initation. As the developement process continues and its status changes, I move the folder to a corresponding folder. For example, if the proposal is in its initial discussion phase, it will have a folder under `Initiation`; if the proposal development continues, the folder is moved to `Preparation` and if it is submitted, the folder is moved to `Submitted and follow up`; if it is rejected, the folder is moved to `Rejected`; if it is accepted, it does not belong to proposal category any more and the folder is moved to `Running` projects.
 
 I do this in my email folder (then create rules for email routing), in my file system (to organize files) as well as browser bookmark (to organize relevant websites). Doing it manually is a bit tidious and error prone.  As a result, I decided to automate the entire workflow. This blog post explains how I automate the creating of folders in my outlook mail box.
 
@@ -77,3 +77,6 @@ Now, you can only focus on maintaining your file containing the list of proposal
 **Assumptions**:
 - Outlook is installed and running on your system.
 - The script will create the folder within the Outlook profile that is currently logged in.
+
+----
+If you have questions or comments, you can reach me via [LinkedIn](www.linkedin.com/in/sisayie).
