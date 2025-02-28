@@ -9,6 +9,8 @@ tags:
   - Authomation
 ---
 
+QR codes have become an essential part of many digital interactions, offering an easy way to link offline and online worlds. Whether for business, marketing, or personal use, their ability to store information quickly and be easily scanned makes them a valuable tool.
+
 # Table of content
 - [Part I: What is QR Code](#Introduction)
     - [Features of QR Codes](#Key-Features-of-QR-Codes)
@@ -19,13 +21,13 @@ tags:
 
 - [Part II: Generating QR Code](#Generating-QR-Code)
     - [Installing Required Dependencies](#installing-required-dependencies)
-    - [Coding](#coding)
+    - [Coding Backend](#coding-backend)
+    - [Coding Frontend](#coding-frontend)
     - [Running the Application](#running-the-application)
 
 This article provides an overview of QR Code and a simple python application to generate a QR Code. The first part offers inroduction to QR code and the second part walks you through the steps to the implementation of QR generator in python. If you are interested only to the implementation, you can directly jump to the section [Generating QR Code](#Generating-QR-Code). The full code is available [here](TODO:link).
 
-## [What is QR Code?](#Introduction)
-QR codes have become an essential part of many digital interactions, offering an easy way to link offline and online worlds. Whether for business, marketing, or personal use, their ability to store information quickly and be easily scanned makes them a valuable tool. 
+## [Part I: What is QR Code?](#Introduction)
 
 [What exactly are QR Codes?](#What-are-QR-Codes?)
 
@@ -83,7 +85,7 @@ First, you need to install the necessary libraries. Open your terminal or comman
 
 Flask is the web framework and qrcode[pil] is the library used to generate QR codes with support for images (Pillow is included in this package).
 
-[Step 2: Create the Flask application](#coding)
+[Step 2: Create the Flask application](#coding-backend)
 
 Now, let's write the Flask application. Create a file called app.py and paste the following code inside it:
 ```Python
@@ -135,7 +137,7 @@ The `'/generate'` route is where the QR code is generated when the form is submi
 The `qrcode.QRCode` class is used to create a QR code object, and we add the data to be encoded using `add_data()`.
 We generate the QR code image using `make_image()`, which we then save to a `BytesIO` object and send back as an image response.
 
-Step 3: Create the HTML template
+[Step 3: Create the HTML template](#coding-frontend)
 
 Create a folder named `templates` in the same directory as your `app.py`, and inside it, create a file named `index.html`. This will be the homepage where users can input the data to generate the QR code.
 
