@@ -37,7 +37,7 @@ or for Python 3:
 
 If Python is not installed, you can follow the installation instructions for your operating system from the official Python website.
 
-**A) Virtual Environment Using `venv` (Built-in Python Module)**
+**<u>A) Virtual Environment Using `venv` (Built-in Python Module)</u>**
 
 **Step 2: Create a Virtual Environment Using venv**
 
@@ -117,7 +117,7 @@ If you no longer need the virtual environment, you can delete the entire `.venv`
 
 This will completely remove the virtual environment and all its contents.
 
-**B) Virtual Environment Using `virtualenv` (Third-Party Tool)**
+**<u>B) Virtual Environment Using `virtualenv` (Third-Party Tool)</u>**
 
 While `venv` is built into Python 3, you may want to use virtualenv, a popular third-party tool that provides some additional features, like compatibility with Python 2.
 
