@@ -164,6 +164,7 @@ for i in range(10):
 Functions are reusable blocks of code that perform a specific task. Functions allow you to avoid repetition of codes and make your code more organized and readable. Functions allow you to break your program into smaller, manageable pieces, making it easier to read, maintain, and test. 
 ## [Defining and calling a function](#defining-and-calling-functions)
 You define a function in Python using the `def` keyword.
+
 ```python
 # Defining Functions
 
@@ -174,10 +175,12 @@ def greet(name):
 greet("Alice")
 greet("Bob")
 ```
+
 In this example, `greet` is the name of the function and `name` is the parameter. The function prints greeting text for the given parameter. The output of the above code will be:
-`Hello, Alice!
+```
+Hello, Alice!
 Hello, Bob!
-`
+```
 
 ## [Function with Return Value](#function-with-return-value)
 Functions can return values using the return keyword. This allows you to use the result of the function in other parts of the program.
