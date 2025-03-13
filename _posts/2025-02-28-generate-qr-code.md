@@ -1,7 +1,7 @@
 ---
 title: 'Step-by-step guide to Developing a Simple Flask Application that Generates QR Codes'
 date: 2025-02-28
-permalink: /posts/2012/08/Generates-QR-Codes/
+permalink: /posts/2025/02/Generates-QR-Codes/
 tags:
   - QR Codes
   - Python
