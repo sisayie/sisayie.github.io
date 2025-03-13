@@ -161,12 +161,12 @@ for i in range(10):
     print(i)
 ```
 # [Functions](#functions)
-Functions are reusable blocks of code that perform a specific task. Functions allow you to avoid repetition of codes and make your code more organized and readable. Functions allow you to break your program into smaller, manageable pieces, making it easier to read, maintain, and test. 
+Functions are reusable blocks of code that perform a specific task. Functions allow you to avoid repetition of codes and make your code more organized and readable. Functions allow you to break your program into smaller, manageable pieces, making it easier to read, maintain, and test.
+
 ## [Defining and calling a function](#defining-and-calling-functions)
 You define a function in Python using the `def` keyword.
-
 ```python
-# Defining Functions
+# Defining a function
 
 def greet(name):
     print(f"Hello, {name}!")
@@ -212,6 +212,7 @@ A tuple is similar to a list but immutable. Once created, you cannot change the 
 coordinates = (10, 20)
 print(coordinates[0])  # Accessing the first value in the tuple
 ```
+
 ## [Dictionaries](#dictionaries)
 A dictionary is a collection of key-value pairs. Each key is unique, and it maps to a corresponding value.
 ```python
