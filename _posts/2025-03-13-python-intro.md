@@ -83,7 +83,7 @@ else:
 ## [Looping (Iteration)](#looping)
 Loops allow us to repeat a block of code multiple times. There are two common types of loops: for loops and while loops.
 ### [for Loop](#for-loop)
-A for loop is used to iterate over a sequence (like a list, tuple, or string). It executes a block of code for each item in the sequence. For loop is pre
+A for loop is used to iterate over a sequence (like a list, tuple, or string). It executes a block of code for each item in the sequence. For loop  is a powerful tool for automating repetitive tasks.
 ```python
 
 # Iterating through a list using a for loop
@@ -146,6 +146,75 @@ while True:
         break
 ```
 
+The `range()` function is commonly used to generate a sequence of numbers. It provides an easy way to iterate a specific number of times or over a defined sequence of values.
+
+The basic syntax of `range()` is as follows:
+```python
+range(start, stop, step)
+```
+- **start**: The starting value of the sequence (inclusive). If not specified, it defaults to 0.
+- **stop**: The ending value of the sequence (exclusive). This value is not included in the sequence.
+- **step**: The difference between each number in the sequence. This is optional, and if not specified, it defaults to 1. Have a look at the following examples on the use of `range()` function:
+
+1. **Basic range without start or step:**
+   ```python
+   for i in range(5):  # This will loop from 0 to 4 (not including 5)
+       print(i)
+   ```
+   Output:
+   ```
+   0
+   1
+   2
+   3
+   4
+   ```
+
+2. **Range with start and stop:**
+   ```python
+   for i in range(2, 6):  # This will loop from 2 to 5 (not including 6)
+       print(i)
+   ```
+   Output:
+   ```
+   2
+   3
+   4
+   5
+   ```
+
+3. **Range with step:**
+   ```python
+   for i in range(1, 10, 2):  # This will loop from 1 to 9, with a step of 2
+       print(i)
+   ```
+   Output:
+   ```
+   1
+   3
+   5
+   7
+   9
+   ```
+
+4. **Negative step:**
+   ```python
+   for i in range(10, 0, -2):  # This will loop from 10 to 2 (not including 0), stepping by -2
+       print(i)
+   ```
+   Output:
+   ```
+   10
+   8
+   6
+   4
+   2
+   ```
+
+###### Key points about range() function:
+- `start` is inclusive, but `stop` is exclusive. So, the loop will stop just before reaching the `stop` value.
+- If `start` is greater than `stop` and the step is positive, the loop won't run. Similarly, if the step is negative and `start` is less than `stop`, the loop won't run.
+
 ### [break, continue and pass Statements](#break-continue-and-pass)
 In python, there are three statements that are used to change the behavior of loops:
 - break: Exits the loop prematurely. It is used to end the loop when some condition is satisfied. For example, if a loop is searching an item in a list, it should exit as soon as it gets the time.
@@ -160,6 +229,120 @@ for i in range(10):
         continue  # Skip the rest of the loop if i is even
     print(i)
 ```
+
+### Nested loops
+There is also another variant of loop where you have loops inside loops (called nested loops). In Python, you can nest any type of loop (like a `for` loop or a `while` loop) inside another loop. Nested loops are commonly used when you need to perform more complex iterations, like working with 2D arrays, matrices, or iterating through multiple dimensions.
+
+**Basic Structure**
+```python
+for outer_item in outer_sequence:
+    for inner_item in inner_sequence:
+        # Do something with outer_item and inner_item
+```
+
+- The **outer loop** runs first and controls how many times the **inner loop** will execute.
+- The **inner loop** will complete all of its iterations for each single iteration of the outer loop. Have a look at the examples below:
+
+**1: Nested `for` Loop with a List of Lists (2D list)**
+Imagine you have a 2D list (a list of lists), and you want to loop through each row and each element in the row.
+
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:  # Outer loop (iterates over each row)
+    for element in row:  # Inner loop (iterates over each element in the row)
+        print(element, end=" ")
+    print()  # Move to a new line after each row
+```
+Output:
+```
+1 2 3 
+4 5 6 
+7 8 9
+```
+As you can see from the output,
+- the **outer loop** goes over each row of the matrix.
+- the **inner loop** goes through each element in that row and prints it.
+- the `end=" "` keeps the output on the same line, and `print()` without arguments moves to the next line after completing one row.
+
+### Example 2: Nested Loops for Multiplication Table
+A common example of a nested loop is generating a multiplication table. Here's how you can do it with two nested `for` loops:
+
+```python
+for i in range(1, 6):  # Outer loop for the first number (1-5)
+    for j in range(1, 6):  # Inner loop for the second number (1-5)
+        print(f"{i} x {j} = {i * j}", end="\t")
+    print()  # Move to a new line after each row
+```
+Output:
+```
+1 x 1 = 1	1 x 2 = 2	1 x 3 = 3	1 x 4 = 4	1 x 5 = 5	
+2 x 1 = 2	2 x 2 = 4	2 x 3 = 6	2 x 4 = 8	2 x 5 = 10	
+3 x 1 = 3	3 x 2 = 6	3 x 3 = 9	3 x 4 = 12	3 x 5 = 15	
+4 x 1 = 4	4 x 2 = 8	4 x 3 = 12	4 x 4 = 16	4 x 5 = 20	
+5 x 1 = 5	5 x 2 = 10	5 x 3 = 15	5 x 4 = 20	5 x 5 = 25
+```
+
+### Example 3: Nested Loops with a Condition
+You can also combine nested loops with conditions. For example, let's print the elements of a 2D list but only if they are even:
+
+```python
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for row in matrix:
+    for element in row:
+        if element % 2 == 0:  # Check if the element is even
+            print(element, end=" ")
+    print()  # Move to a new line after each row
+```
+Output:
+```
+2 
+4 6 
+8
+```
+
+### Example 4: Nested `while` Loop
+You can also nest `while` loops. Here's an example of nested `while` loops that print a pattern:
+
+```python
+i = 1
+while i <= 3:  # Outer while loop
+    j = 1
+    while j <= 3:  # Inner while loop
+        print(f"i={i}, j={j}")
+        j += 1
+    i += 1
+```
+Output:
+```
+i=1, j=1
+i=1, j=2
+i=1, j=3
+i=2, j=1
+i=2, j=2
+i=2, j=3
+i=3, j=1
+i=3, j=2
+i=3, j=3
+```
+
+### Key Points:
+1. **Outer loop** runs once for each item in its sequence, and for every iteration, the **inner loop** runs through its entire sequence.
+2. **Performance considerations**: Nested loops can become slow if the sequences you're iterating over are large because the time complexity increases with the depth of nesting. For example, two nested loops over lists of length `n` result in a time complexity of `O(n^2)`.
+3. **Indentation**: In Python, proper indentation is critical. The body of each loop must be indented.
+
+### Conclusion:
+Nested loops are a powerful tool when dealing with multi-dimensional data structures or when you need to perform repetitive tasks with multiple layers of iteration. Just remember that the deeper you nest loops, the more computationally expensive it becomes!
+
 # [Functions](#functions)
 Functions are reusable blocks of code that perform a specific task. Functions allow you to avoid repetition of codes and make your code more organized and readable. Functions allow you to break your program into smaller, manageable pieces, making it easier to read, maintain, and test.
 
