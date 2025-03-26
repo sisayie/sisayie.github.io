@@ -10,14 +10,8 @@ tags:
   - Picovoice
 ---
 
-- [Scenario: A Family Evening Lost in Their Devices](#scenario)
-- [Voice-Controlled Image Generation](#image-generation)
+In this article, I am going show you how generative AI offers something truly special for families looking to enhance their time together. With just a voice command, your family can dive into a world of creativity, learning, and fun. This system is a perfect blend of technology and imagination, transforming everyday moments into extraordinary memories. First, let us see a hypothetical scenario. 
 
-- [Hands-on ...](#hands-on)
-
-In this article, I am going show you how generative AI offers something truly special for families looking to enhance their time together. With just a voice command, your family can dive into a world of creativity, learning, and fun. This system is a perfect blend of technology and imagination, transforming everyday moments into extraordinary memories. First, the context: 
-
----
 ### [Scenario](#scenario)
 
 Let us have a look at a scenario where this project could be applied to -- a family evening lost in their devices. 
