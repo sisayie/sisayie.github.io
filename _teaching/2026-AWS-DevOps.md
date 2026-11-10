@@ -1,5 +1,5 @@
 ---
-title: "DevOps on AWS"
+title: "DevOps on AWS Cloud"
 collection: teaching
 type: "Professional Course"
 permalink: /teaching/2026-AWS-DevOps

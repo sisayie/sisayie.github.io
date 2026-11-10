@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning and AI on AWS"
+title: "Cloud-Native AI and Machine Learning on AWS Cloud"
 collection: teaching
 type: "Professional Course"
 permalink: /teaching/2026-AWS-Machine-Learning
