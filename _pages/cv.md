@@ -100,6 +100,7 @@ Skills
   * French (DELF A1)
   * Amharic (Native)
   * Oromo (Native)
+  
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
