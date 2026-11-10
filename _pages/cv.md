@@ -150,5 +150,5 @@ Awards and Scholarships
 * 2001 -- Addis Ababa University Top of the Dean's List, Addis Ababa University
 
 My Strengths
-=====
+======
 Full commitment and perseverance, sense of humor, honest and optimistic attitude, and hard working.
