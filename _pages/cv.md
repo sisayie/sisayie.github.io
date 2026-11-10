@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Sisay Adugna Chala \n Curriculum Vitae"
+title: "Sisay Adugna Chala <br\> Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -34,20 +34,21 @@ Work experience
       * Provide practical guidance in developing and implementing cloud solutions.
 
 * **01/2023-04/2026**: 
-  * Postdoctoral Researcher, RWTH Aachen
+  * Postdoctoral Researcher of Data Science and AI, RWTH Aachen
     * Managed a project and collaborated with institutions to advance federated learning technologies and their practical industrial applications.
     * Designed and developed scalable, distributed AI solutions for data spaces and data-intensive applications, considering interoperability, data protection, and secure data processing.
     * Investigated approaches for integrating machine learning into distributed infrastructures and developing scalable AI architectures.
     * Developed a successful acqusition of EU Project
         
 * **09/2017-08/2025**: 
-  * Postdoctoral Researcher, Fraunhofer Institute of Applied Information Technology (FIT)
-    * Planned, delivered, and led projects in artificial intelligence.
-    * Successfully acquired and coordinated national and international research projects with total funding of several million euros.
-    * Led interdisciplinary research projects with international industry and academic partners.
-    * Managed large-scale projects with international partners and interdisciplinary teams, particularly in machine learning and data analysis.
-    * Implemented machine-learning models and optimized algorithms to improve process and system efficiency.
-    * Applied container technologies such as Docker in AI development projects and implemented DevOps methods to automate and optimize processes.
+  * Postdoctoral Researcher of Data Science and AI, Fraunhofer Institute of Applied Information Technology (FIT)
+    * Worked on Application of container technologies such as Docker for AI development projects and the implementation of DevOps methods for the automation and optimization of processes as well as in the acquisition of funding and international project management.
+      * Planned, delivered, and led projects in artificial intelligence.
+      * Successfully acquired and coordinated national and international research projects with total funding of several million euros.
+      * Led interdisciplinary research projects with international industry and academic partners.
+      * Managed large-scale projects with international partners and interdisciplinary teams, particularly in machine learning and data analysis.
+      * Implemented machine-learning models and optimized algorithms to improve process and system efficiency.
+      * Applied container technologies such as Docker in AI development projects and implemented DevOps methods to automate and optimize processes.
 
 * **06/2014-06/2017**: 
   * Early-stage Researcher, University of Siegen
@@ -147,3 +148,7 @@ Awards and Scholarships
 * 2009 -- DAAD Short-Term Research Visit to Germany in DFKI and Saarland University, Deutscher AkademischerAustauschDienst (DAAD)
 * 2007 - 2009 -- DAAD In-Country Scholarship, Deutscher AkademischerAustauschDienst (DAAD)
 * 2001 -- Addis Ababa University Top of the Dean's List, Addis Ababa University
+
+My Strengths
+=====
+Full commitment and perseverance, sense of humor, honest and optimistic attitude, and hard working.
