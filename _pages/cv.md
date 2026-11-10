@@ -58,14 +58,48 @@ Skills
 ======
 * Practical-oriented University teaching
 * AI and Machine Learning on AWS Cloud
-* Agile Project Managmement
-* Full Stack Development of Machine Learning Applications
+  * Full-stack Development and implementation of AI models, Federated Learning, Privacy-Preserving AI
+  * Cloud Technologies
+	  * Amazon Web Services (AWS) -- AWS Certified Machine Learning Engineer
+    * Google Cloud Platform (GCP)
+    * Microsoft Azure
+    * Azure DevOps
+
+* Virtualization and Containers
+  * VMware
+  * VirtualBox
+  * Docker
+  * Portainer
+
 * Programming
   * Python
   * Java
   * C++
-* Android Development
+  * Android Development
 
+* Databases Management Systems
+  * MySQL/MariaDB
+  * PostgreSQL
+  * SQLite
+
+* CI/CD, Orchestration and IaC
+  * GitHub Actions
+  * GitLab Runner
+  * Jenkins
+  * OpenShift
+  * Terraform
+  * Ansible
+  * CloudFormation
+
+* Project Management
+  * Agile development with Scrum
+
+* Languages
+  * German (B2-C1)
+  * English (IELTS (7))
+  * French (DELF A1)
+  * Amharic (Native)
+  * Oromo (Native)
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -89,3 +123,10 @@ Academic Services and leadership
 * Deputy group leader of Intelligent Data Analysis at the Department of Data Science and AI, Fraunhofer FIT
 * Reviewer for various journals and conferences
 * Project Management, including acquisition of multi-national projects.
+
+Certifications
+======
+* AWS Certified Machine Learning Engineer – Associate, 2026
+* Fundamentals of Containers, Kubernetes and OpenShift, 2025
+* Novell Certified Linux Administrator, 2012
+* LPI Certified Linux System Administrator, 2010
