@@ -17,11 +17,13 @@ Education
 
 Work experience
 ======
-* 06/2026-todate: Lecturer (External)
-  * Institute für Berufliche Bildung (IBB)
+* 06/2026-todate: Lecturer (External), Institute für Berufliche Bildung (IBB)
+* AWS Cloud, DevOps and Machine Learning Instructor
+  * Deliver training in AWS Cloud Computing and AI.
+  * Teach cloud architecture, AWS services, and cloud-based technologies.
+  * Provide practical guidance in developing and implementing cloud solutions.
 
-* 01/2023-04/2026: Researcher
-  * RWTH Aachen
+* 01/2023-04/2026: Researcher, RWTH Aachen
 
 * 09/2017-08/2025: Researcher
   * Fraunhofer Institute of Applied Information Technology (FIT)
