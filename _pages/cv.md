@@ -23,16 +23,16 @@ Work experience
 * 2023-2026: Researcher
   * RWTH Aachen
 
-* 09/2017-08/2025: Researcher
+* 2017-2025: Researcher
   * Fraunhofer Institute of Applied Information Technology (FIT)
 
-* 06/2014-06/2017: Research Asstant
+* 2014-2017: Research Asstant
   * University of Siegen
 
-* 07/2009-06/2014: Lecturer
+* 2009-2014: Lecturer
   * Haramaya University
 
-* 10/2005-07/2009: Graduate Assistant
+* 2005-2009: Graduate Assistant
   * Haramaya University
   
 Skills
