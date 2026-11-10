@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Sisay Adugna Chala <br\> Curriculum Vitae"
+title: "Sisay Adugna Chala"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -26,21 +26,21 @@ Education
 
 Work experience
 ======
-* **06/2026 - todate**: 
+* **06/2026 - todate** 
   * Lecturer (External), Institute für Berufliche Bildung (IBB)
     * AWS Cloud, DevOps and Machine Learning Instructor
       * Deliver training in AWS Cloud Computing and AI.
       * Teach cloud architecture, AWS services, and cloud-based technologies.
       * Provide practical guidance in developing and implementing cloud solutions.
 
-* **01/2023-04/2026**: 
+* **01/2023-04/2026** 
   * Postdoctoral Researcher of Data Science and AI, RWTH Aachen
     * Managed a project and collaborated with institutions to advance federated learning technologies and their practical industrial applications.
     * Designed and developed scalable, distributed AI solutions for data spaces and data-intensive applications, considering interoperability, data protection, and secure data processing.
     * Investigated approaches for integrating machine learning into distributed infrastructures and developing scalable AI architectures.
     * Developed a successful acqusition of EU Project
         
-* **09/2017-08/2025**: 
+* **09/2017-08/2025**
   * Postdoctoral Researcher of Data Science and AI, Fraunhofer Institute of Applied Information Technology (FIT)
     * Worked on Application of container technologies such as Docker for AI development projects and the implementation of DevOps methods for the automation and optimization of processes as well as in the acquisition of funding and international project management.
       * Planned, delivered, and led projects in artificial intelligence.
@@ -50,26 +50,26 @@ Work experience
       * Implemented machine-learning models and optimized algorithms to improve process and system efficiency.
       * Applied container technologies such as Docker in AI development projects and implemented DevOps methods to automate and optimize processes.
 
-* **06/2014-06/2017**: 
+* **06/2014-06/2017**
   * Early-stage Researcher, University of Siegen
     * Worked at the Institute for Knowledge-Based Systems and Knowledge Management at the University of Siegen.
     * Researched machine-learning methods for an intelligent system matching job-seeker profiles with job advertisements and generating job and candidate recommendations.
     * Taught software engineering for the international Mechatronics programme.
 
-* **07/2009-06/2014**: 
+* **07/2009-06/2014**
   * Lecturer, Haramaya University
     * Lecturer at Haramaya University, Ethiopia; also served for more than three years as IT Manager and system administrator for Linux and Windows networks.
     * Conducted practical classes and laboratory work, supervised theses, and contributed to research, publications, seminars, and workshops.
     * Taught computer science courses such as Object-Oriented Programming with C++, Internet Programming with Java, Artiffcial Intelligence (practical laboratory sessions with Prolog, Python and Java), Database Design using Dia for Modeling and MySQL for implementation, Advanced Website Development using HTML, Javascript and PHP with MySQL, Network and Systems Administration with Windows and Linux Servers
 
-* **09/2009-2014**: 
+* **09/2009-2014**
   * ICT Director, Haramay University
     * Leading ICT Office with a team of 17 employees, I have worked on planning, organizing, staffing, monitoring and managing ICT technologies and services in the university
     * Expanded university IT services; administered, configured, and optimized servers.
     * Managed a network expansion project that involved Cisco, Linux and Windows server ecosystems.
     * Implemented a network and bandwidth monitoring system using Nagios and MRTG.
 
-* **10/2005-07/2009**: 
+* **10/2005-07/2009**
   * Graduate Assistant, Haramaya University
     * Handled lectures and practical laboratory work in network and system administration and programming with Java and C++.
     * Supervised bachelor student theses.
