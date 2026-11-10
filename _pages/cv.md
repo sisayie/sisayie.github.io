@@ -17,22 +17,22 @@ Education
 
 Work experience
 ======
-* 2026-todate: Lecturer (External)
+* 06/2026-todate: Lecturer (External)
   * Institute für Berufliche Bildung (IBB)
 
-* 2023-2026: Researcher
+* 01/2023-04/2026: Researcher
   * RWTH Aachen
 
-* 2017-2025: Researcher
+* 09/2017-08/2025: Researcher
   * Fraunhofer Institute of Applied Information Technology (FIT)
 
-* 2014-2017: Research Asstant
+* 06/2014-06/2017: Research Asstant
   * University of Siegen
 
-* 2009-2014: Lecturer
+* 07/2009-06/2014: Lecturer
   * Haramaya University
 
-* 2005-2009: Graduate Assistant
+* 10/2005-07/2009: Graduate Assistant
   * Haramaya University
   
 Skills
