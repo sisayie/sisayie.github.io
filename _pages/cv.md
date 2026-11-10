@@ -17,21 +17,27 @@ Education
 
 Work experience
 ======
-* 2005-2009: Graduate Assistant
-  * Haramaya University
+* 06/2026-todate: Lecturer (External)
+  * Institute für Berufliche Bildung (IBB)
 
-* 2009-2014: Lecturer
-  * Haramaya University
-
-* 2014-2017: Research Asstant
-  * University of Siegen
-* 2017-todate: Researcher
-  * Fraunhofer Institute of Applied Information Technology (FIT)
-* 2023-todate: Researcher
+* 01/2023-04/2026: Researcher
   * RWTH Aachen
+
+* 09/2017-08/2025: Researcher
+  * Fraunhofer Institute of Applied Information Technology (FIT)
+
+* 06/2014-06/2017: Research Asstant
+  * University of Siegen
+
+* 07/2009-06/2014: Lecturer
+  * Haramaya University
+
+* 10/2005-07/2009: Graduate Assistant
+  * Haramaya University
   
 Skills
 ======
+* AI and Machine Learning on AWS Cloud
 * Agile Project Managmement
 * Full Stack Development of Machine Learning Applications
 * Programming
