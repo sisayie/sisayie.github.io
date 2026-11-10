@@ -17,10 +17,10 @@ Education
 
 Work experience
 ======
-* 06/2026-todate: Lecturer (External)
+* 2026-todate: Lecturer (External)
   * Institute für Berufliche Bildung (IBB)
 
-* 01/2023-04/2026: Researcher
+* 2023-2026: Researcher
   * RWTH Aachen
 
 * 09/2017-08/2025: Researcher
