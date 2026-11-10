@@ -13,16 +13,16 @@ Education
 ======
 * **2014 - 2018** 
   * Ph.D in Compure Science, University of Siegen
-  * Dissertation: *Bidirectional Job Matching Through Unsupervised Feature Learning*
-  * Passed with: Magna Cum Laude
+    * Dissertation: *Bidirectional Job Matching Through Unsupervised Feature Learning*
+    * Passed with: Magna Cum Laude
 * **2007 - 2009** 
   * M.Sc. in Information Science, Addis Ababa University, 2009
-  * Thesis: *English Afaan Oromoo Machine Translation: An experiment using Statistical Approach* was done under the supervision of Dr. Andreas Eisele, German Research Center for Artificial Intelligence (DFKI) & Saarland University, Germany.
-  * Passed with: Great Distinction
+    * Thesis: *English Afaan Oromoo Machine Translation: An experiment using Statistical Approach* was done under the supervision of Dr. Andreas Eisele, German Research Center for Artificial Intelligence (DFKI) & Saarland University, Germany.
+    * Passed with: Great Distinction
 * **2000 - 2005** 
   * B.Sc. in Information Systems, Addis Ababa University
-  * Senior project with title *Web-based Library System* was done under the supervision of Nigussie Taddesse.
-  * Passed with: Great Distinction
+    * Senior project with title *Web-based Library System* was done under the supervision of Nigussie Taddesse.
+    * Passed with: Great Distinction
 
 Work experience
 ======
