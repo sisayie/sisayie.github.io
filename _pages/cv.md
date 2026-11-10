@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CV - Dr. Sisay Adugna Chala"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -66,6 +66,6 @@ Teaching
   
 Academic Services and leadership
 ======
-* Reviewer for various journals and conferences
 * Deputy group leader of Intelligent Data Analysis at the Department of Data Science and AI, Fraunhofer FIT
-* Project Management
+* Reviewer for various journals and conferences
+* Project Management, including acquisition of multi-national projects.
