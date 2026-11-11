@@ -149,6 +149,6 @@ Awards and Scholarships
 * 2007 - 2009 -- DAAD In-Country Scholarship, Deutscher AkademischerAustauschDienst (DAAD)
 * 2001 -- Addis Ababa University Top of the Dean's List, Addis Ababa University
 
-My Strengths
+<!-- My Strengths
 ======
-Full commitment and perseverance, sense of humor, honest and optimistic attitude, and hard working.
+Full commitment and perseverance, sense of humor, honest and optimistic attitude, and hard working. -->
