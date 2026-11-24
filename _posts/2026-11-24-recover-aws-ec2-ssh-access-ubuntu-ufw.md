@@ -2,7 +2,7 @@
 title: "How to Recover SSH Access to an AWS EC2 Ubuntu Instance After Enabling Firewal?"
 seo_title: "AWS EC2 SSH Connection Timed Out? Recover Ubuntu Using EBS and chroot"
 description: "Learn how to recover SSH access to an AWS EC2 Ubuntu instance after accidentally enabling UFW."
-date: 2025-02-28
+date: 2026-11-24
 permalink: /posts/2026/11/2026-11-24-recover-aws-ec2-ssh-access-ubuntu-ufw/
 tags:
     - AWS
