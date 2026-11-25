@@ -65,8 +65,6 @@ The next step was to enable verbose SSH logging.
 
 I ran:
 
-bash
-
 ```bash
 ssh -vvv -i your-key.pem ubuntu@EC2_PUBLIC_IP
 ```
@@ -440,8 +438,6 @@ cd /
 ```
 
 If virtual filesystems were mounted separately, unmount them first, in reverse order:
-
-bash
 
 ```bash
 sudo umount /mnt/recovery/run
