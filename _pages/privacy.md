@@ -4,8 +4,6 @@ permalink: /privacy/
 author_profile: false
 ---
 
-# Privacy Policy
-
 Last updated: 25 November 2026
 
 ## 1. Data Controller
@@ -16,7 +14,7 @@ Dr. Sisay Adugna Chala
 
 Website: https://www.sisayac.com
 
-2. Website Hosting – GitHub Pages
+## 2. Website Hosting – GitHub Pages
 
 This website is hosted using GitHub Pages, a hosting service provided by GitHub, Inc.
 
@@ -36,7 +34,7 @@ GitHub's privacy statement:
 
 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
-3. Google Analytics 4
+## 3. Google Analytics 4
 
 This website uses Google Analytics 4 (GA4), a web analytics service provided by Google.
 
@@ -60,7 +58,7 @@ Further information:
 
 https://policies.google.com/privacy
 
-4. Google AdSense and Advertising
+## 4. Google AdSense and Advertising
 
 This website intends to use Google AdSense to display advertisements.
 
@@ -85,7 +83,7 @@ You can also learn how Google uses information from partner websites:
 
 https://policies.google.com/technologies/partner-sites
 
-5. Cookies and Consent Management
+## 5. Cookies and Consent Management
 
 This website may use cookies and similar technologies for website functionality, analytics and advertising.
 
@@ -95,7 +93,7 @@ You can accept or reject optional technologies through the cookie consent interf
 
 You can also change or withdraw your consent at any time through the cookie settings.
 
-6. Data Sharing and International Transfers
+## 6. Data Sharing and International Transfers
 
 Personal information may be processed by Google and GitHub in connection with the services described above.
 
@@ -105,7 +103,7 @@ Where applicable, international transfers are subject to the safeguards required
 
 Please consult the respective privacy statements for further information.
 
-7. Data Retention
+## 7. Data Retention
 
 Technical hosting information is retained by GitHub according to its own retention and security policies.
 
@@ -113,7 +111,7 @@ Google Analytics data is retained according to the retention settings configured
 
 Advertising-related information is retained according to Google's applicable policies.
 
-8. Your Data Protection Rights
+## 8. Your Data Protection Rights
 
 Under the GDPR, you may have the following rights:
 
@@ -131,7 +129,7 @@ To exercise your rights, please contact:
 
 [Your contact email] -->
 
-9. Changes to This Privacy Policy
+## 9. Changes to This Privacy Policy
 
 This privacy policy may be updated when the website introduces new services or changes its data processing practices.
 
